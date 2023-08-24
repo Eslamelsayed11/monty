@@ -75,4 +75,5 @@ void Add_Node(stack_t **head, int x);
 void add_queue_function(stack_t **head, int x);
 void queue_function(stack_t **head, unsigned int f_Count);
 void f_stack(stack_t **head, unsigned int f_Count);
+ssize_t _getline(char **lineptr, size_t *n, FILE *stream);
 #endif
